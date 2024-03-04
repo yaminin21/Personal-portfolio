@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5adbc8c26a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/logoy.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I am <span>Yamini.N</span></h1>
+                <p>Front End Developer</p>
+            </div>
+        </div>
+    </div>
+    <!------------------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="./image/cartoon.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p >Passionate Front end developer with  skilled in  HTML, CSS, Javascript and React js.
+                        Focussed on creating user friendly, visually appealing web applications.I am a learner, problem solver, 
+                        team player and commited to upgrade my skills.
+                    </p>
+                    <div class="tabtitles">
+                        <p class="tablinks"><ins>Education</ins></p>
+                    </div>
+                    <div class="tabcontents">
+                        <ul>
+                            <li><span>2023</span><br>Front end Development Training at Besant Technologies </li>
+                            <li><span>2023</span><br>Bachelor of Engineering- ComputerScience and Engineering <br>at
+                                 Arunai Engineering College with cgpa 8.5 </li>
+                            <li><span>2019</span><br>HSC-Chanakya Matriculation Higher Secondary School with 75%</li>  
+                            <li><span>2017</span><br>SSLC-Chanakya Matriculation Higher Secondary School with 96%</li>   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------skill---------- -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="subtitle">Skill</h1>
+            <div class="skill-list">
+                <div>
+                    <h2>HTML</h2>
+                </div>
+                <div>
+                    <h2>CSS</h2>
+                </div>
+                <div>
+                    <h2>JAVASCRIPT</h2>
+                </div>
+                <div>
+                    <h2>REACT JS</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------projects----------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Project</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./image/work-1.png">
+                    <div class="layer">
+                        <h2>PORTFOLIO</h2>
+                        <p>This is my personal portfolio website.</p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/work-2.png">
+                    <div class="layer">
+                        <h2>RESTAURANT </h2>
+                        <p>This is the restaurant website.</p>
+                            <a href="https://yaminin21.github.io/Restaurant-website/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/work-3.png">
+                    <div class="layer">
+                        <h2>FORM</h2>
+                        <p>Here, there are two forms.They are Login form and sign in form</p>
+                            <a href="https://yaminin21.github.io/LOGIN-FORM/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yaminin787@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9025161933</p>
+                    <div class="socialicons">
+                        <a href="https://www.linkedin.com/in/yamini-n-86950b248" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/yaminin21" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Yamini</p>
+        </div>
+    </div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
